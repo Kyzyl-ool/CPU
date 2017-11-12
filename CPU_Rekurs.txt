@@ -1,0 +1,19 @@
+KZL 1.0
+jmp :0
+:1
+push 1
+je :2
+pop
+dub
+push -1
+add
+call :1
+mul
+ret
+:2
+pop
+ret
+:0
+push 6
+call :1
+end

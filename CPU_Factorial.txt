@@ -1,0 +1,27 @@
+KZL 1.0
+jmp :0
+:1
+push 1
+add
+ret
+:0
+push 6
+pushr 0
+push 1
+pushr 1
+push 1
+pushr 2
+:3
+popr 0
+popr 1
+jed :2
+popr 1
+call :1
+pushr 1
+popr 1
+popr 2
+mul
+pushr 2
+jmp :3
+:2
+end

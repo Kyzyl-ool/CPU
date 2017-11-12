@@ -1,0 +1,22 @@
+CPU DUMP (CPU_OK)
+
+Signature: KZL 1.0
+
+Amount of commands: 22
+ current command: 22
+
+Active: 0
+Commands: [8 17 1 1 9 15 3 25 1 -1 6 16 2 5 7 3 7 1 6 16 2 15 ]
+
+Registers: {
+}
+
+call_stack [0x7fec17402ab0] (STACK_OK): {
+	call_stack -> current = 0
+}
+
+stack "s" (STACK_OK) [0x7fec17402a90] {
+	current = 1
+
+	elements[0]: 720
+}
